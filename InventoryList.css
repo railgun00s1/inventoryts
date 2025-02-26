@@ -107,7 +107,7 @@
   /* Start with a smaller fixed width */
   max-width: 30px;
   /* Ensure it scales, but doesn't get too large */
-  height: 16px;
+  height: 24px;
   /* Fixed, smaller height */
   padding: 3px;
   /* Reduced padding */
