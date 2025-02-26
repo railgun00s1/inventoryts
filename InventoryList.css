@@ -180,124 +180,103 @@
 @media (max-width: 400px) {
 
   #myInput,
-  .inventory-list input[type="number"] {
-    width: 40px;
-    /* Take up most of the screen width on smaller screens */
-    font-size: 16px;
-    /* Further reduce font size if needed */
-    font-family: 'Courier New', monospace;
+   .inventory-list input[type="number"] {
+    width: 40px; /* Take up most of the screen width on smaller screens */
+    font-size: 16px; /* Further reduce font size if needed */
+	font-family: 'Courier New', monospace; 
   }
-
-  /* Adjust font sizes for smaller screens */
+  
+    /* Adjust font sizes for smaller screens */
   .inventory-list h2 {
-    font-size: 1em;
-  }
+        font-size: 1em;
+    }
 
   .inventory-list h3 {
-    font-size: 22px;
-  }
+	    
+        font-size: 22px;
+    }
 
-  /* Adjust container width */
+    /* Adjust container width */
   .inventory-list {
-    max-width: 95%;
-    /* Take up more of the screen width */
-    padding: 10px;
-    /* Reduce padding */
-  }
+        max-width: 95%;
+        /* Take up more of the screen width */
+        padding: 10px;
+        /* Reduce padding */
+    }
 
-  /* Adjust list item spacing */
+    /* Adjust list item spacing */
   .inventory-list ul {
-    padding-left: 10px;
-    /* Reduce list indent */
-  }
+        padding-left: 10px;
+        /* Reduce list indent */
+    }
 
   .inventory-list li {
     display: flex;
-    flex-direction: column;
+	flex-direction: column;
     width: 100%;
     margin-bottom: 10px;
   }
-
-
+	
+  
   .inventory-list li strong {
-    margin-right: 0;
-    /* Remove right margin for item name as buttons are below now */
-    margin-bottom: 1px;
-    /* Add margin below item name to separate from buttons */
-    text-align: justify;
-    /* Center the item name above the buttons */
+    margin-right: 0; /* Remove right margin for item name as buttons are below now */
+    margin-bottom: 1px; /* Add margin below item name to separate from buttons */
+    text-align: justify; /* Center the item name above the buttons */
   }
-
+  
   .inventory-list li .qty {
-    justify-self: start;
-    /* Reset justify-self as we are not in grid anymore, align left */
-    text-align: center;
-    /* Center quantity below item name if needed */
-    margin-left: 0;
-    /* Remove left margin */
-    margin-right: 0;
-    /* Remove right margin */
-    margin-bottom: 5px;
-    /* Add a little space below quantity */
+    justify-self: start; /* Reset justify-self as we are not in grid anymore, align left */
+    text-align: center; /* Center quantity below item name if needed */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 5px; /* Add a little space below quantity */
   }
-
-  .inventory-list li.button-container {
-    display: block;
+  
+   .inventory-list li.button-container { 
+    display: block; 
     text-align: center;
     gap: 1;
-    justify-content: center;
+    justify-content: center; 
   }
-
   .inventory-list button {
-    background-color: transparent;
-    /* Transparent button background */
-    color: #00ff00;
-    padding: 1px 2px;
-    font-size: .6em;
-    margin-left: 0px;
-    cursor: pointer;
-    font-family: 'Courier New', monospace;
-    /* Monospaced button font */
-    justify-self: end;
-  }
-
-  .logs-container {
-    background-color: var(--background-color);
-    color: #00ff00;
-    border: 1px solid #555;
-    /* Subtle border */
-    padding: 10px;
-    margin-top: 15px;
-    /* Space between the list and logs */
-    margin-bottom: 0px;
-    font-size: 0.6em;
-    font-family: monospace;
-    /* Monospace font for logs */
-    white-space: pre-wrap;
-    /* Preserve line breaks in log messages */
-    text-align: left;
-    margin: 0 auto;
-  }
-
-  .logs-container h3 {
-    color: #0f0;
-    /* Green heading for logs */
-    margin-bottom: 10px;
-  }
-
-  .logs-container ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .logs-container li {
-    margin-bottom: 10px;
-  }
-
-  .inventory-list button {
-    font-size: 0.8em;
-    /* Smaller font size */
-    padding: 3px 6px;
-    /* Reduce padding */
-  }
+  background-color: transparent; /* Transparent button background */
+  color: #00ff00; 
+  padding: 1px 2px;
+  font-size: .6em;
+  margin-left: 0px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace; /* Monospaced button font */
+  justify-self: end;
 }
+  
+  .logs-container {
+	  
+	  background-color: var(--background-color); 
+	  color: #00ff00;
+	  border: 1px solid #555; /* Subtle border */
+	  padding: 10px;
+	  margin-top: 15px; /* Space between the list and logs */
+	  margin-bottom: 0px;
+	  font-size: 0.6em;
+	  font-family: monospace; /* Monospace font for logs */
+	  white-space: pre-wrap; /* Preserve line breaks in log messages */
+	  text-align: left; 
+	  margin: 0 auto;
+	  
+	}.logs-container h3 {
+	  color: #0f0; /* Green heading for logs */
+	  margin-bottom: 10px;
+	}.logs-container ul {
+	  list-style: none;
+	  padding: 0;
+	}.logs-container li {
+	  margin-bottom: 10px;
+	}
+	
+  .inventory-list button {
+        font-size: 0.8em;
+        /* Smaller font size */
+        padding: 3px 6px;
+        /* Reduce padding */
+  }
+}	
