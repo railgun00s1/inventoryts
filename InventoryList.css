@@ -103,16 +103,15 @@
 }
 
 .inventory-list input[type="number"] {
-  width: 60px;
+  width: 100px;
   /* Start with a smaller fixed width */
-  max-width: 60%;
+  max-width: 30px;
   /* Ensure it scales, but doesn't get too large */
   height: 16px;
   /* Fixed, smaller height */
-  padding: 6px;
+  padding: 3px;
   /* Reduced padding */
-  font-size: 1.2em;
-
+  font-size: 1rem;
   border: 1px solid #ccc;
   box-sizing: border-box;
   text-align: center;
