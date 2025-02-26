@@ -206,7 +206,7 @@
     /* Adjust list item spacing */
   .inventory-list ul {
         padding-left: 10px;
-        
+        /* Reduce list indent */
     }
 
   .inventory-list li {
@@ -214,7 +214,6 @@
 	flex-direction: column;
     width: 100%;
     margin-bottom: 10px;
-
   }
 	
   
@@ -234,9 +233,9 @@
   
    .inventory-list li.button-container { 
     display: block; 
-    text-align: left;
+    text-align: center;
     gap: 1;
-    justify-content: left; 
+    justify-content: center; 
   }
   .inventory-list button {
   color: #00ff00; 
@@ -263,7 +262,7 @@
 	  margin: 0 auto;
 	  
 	}.logs-container h3 {
-	  color: #0f0; 
+	  color: #0f0; /* Green heading for logs */
 	  margin-bottom: 10px;
 	}.logs-container ul {
 	  list-style: none;
@@ -274,6 +273,8 @@
 	
   .inventory-list button {
         font-size: 0.8em;
+        /* Smaller font size */
         padding: 3px 6px;
+        /* Reduce padding */
   }
-}	
+}
