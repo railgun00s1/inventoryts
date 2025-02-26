@@ -111,8 +111,8 @@
   /* Fixed, smaller height */
   padding: 6px;
   /* Reduced padding */
-  font-size: 20px;
-  /* Smaller font */
+  font-size: 1.2em;
+
   border: 1px solid #ccc;
   box-sizing: border-box;
   text-align: center;
